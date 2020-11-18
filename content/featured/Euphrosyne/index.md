@@ -1,5 +1,5 @@
 ---
-date: '3'
+date: '2'
 title: 'Euphrosyne'
 cover: './demo.png'
 github: 'https://github.com/Montblac/euphrosyne'

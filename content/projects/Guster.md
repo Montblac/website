@@ -7,6 +7,7 @@ tech:
   - Tkinter
   - Pillow
   - BeautifulSoup
+  - GUI
 showInProjects: false
 ---
 

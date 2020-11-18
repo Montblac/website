@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '1'
 title: 'Guster'
 cover: './demo.png'
 github: 'https://github.com/Montblac/Guster'
@@ -8,6 +8,7 @@ tech:
   - Tkinter
   - Pillow
   - BeautifulSoup
+  - GUI
 showInProjects: true
 ---
 
