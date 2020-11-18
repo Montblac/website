@@ -19,6 +19,23 @@ const GlobalStyle = createGlobalStyle`
     --green: #64ffda;
     --green-tint: rgba(100, 255, 218, 0.1);
 
+        // Polar Night
+    --nord-darkest: #2E3440;
+    --nord-darker: #3B4252;
+    --nord-dark: #434C5E;
+    --nord-dark-soft: #4C566A;
+
+    // Snow Storm
+    --nord-light: #D8DEE9;
+    --nord-lighter: #E5E9F0;
+    --nord-lightest: #ECEFF4;
+
+    // Frost
+    --nord-green: #8FBCBB;
+    --nord-skyblue: #88C0D0;
+    --nord-blue: #81A1C1;
+    --nord-darkblue: #5E81AC;
+
     --font-sans: 'Calibre', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
     --font-mono: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
 
