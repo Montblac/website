@@ -7,17 +7,17 @@ const GlobalStyle = createGlobalStyle`
   ${Fonts};
 
   :root {
-    --dark-navy: #020c1b;
-    --navy: #0a192f;
-    --light-navy: #172a45;
-    --lightest-navy: #303C55;
+    --dark-navy: #3B4252;       // #020c1b to nord-darker [background-loadin];
+    --navy: #2E3440;            // #0a192f to nord-darkest [background];
+    --light-navy: #434C5E;      // #172a45 to nord-dark [project box];
+    --lightest-navy: #4C566A;   // #303C55 to nord-dark-soft;
     --navy-shadow: rgba(2, 12, 27, 0.7);
-    --slate: #8892b0;
-    --light-slate: #a8b2d1;
-    --lightest-slate: #ccd6f6;
+    --slate: #D8DEE9;           // #8892b0 to nord-light;
+    --light-slate: #E5E9F0;     // #a8b2d1 to nord-lighter [project text | sides];
+    --lightest-slate: #ECEFF4;  // #ccd6f6 to nord-lightest [text-name];
     --white: #e6f1ff;
-    --green: #64ffda;
-    --green-tint: rgba(100, 255, 218, 0.1);
+    --green: #5E81AC;           // #64ffda to nord-darkblue [icon + text];
+    --green-tint: rgba(94, 129, 172, 0.1);      // rgba(100, 255, 218, 0.1);
 
         // Polar Night
     --nord-darkest: #2E3440;
@@ -31,10 +31,16 @@ const GlobalStyle = createGlobalStyle`
     --nord-lightest: #ECEFF4;
 
     // Frost
-    --nord-green: #8FBCBB;
+    --nord-skygreen: #8FBCBB;
     --nord-skyblue: #88C0D0;
     --nord-blue: #81A1C1;
     --nord-darkblue: #5E81AC;
+
+    // Aurora
+    --nord-red: #BF616A;
+    --nord-orange: #D08770;
+    --nord-yellow: #EBCB8B;
+    --nord-green: #A3BE8C;
 
     --font-sans: 'Calibre', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
     --font-mono: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;

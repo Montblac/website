@@ -1,14 +1,14 @@
 ---
-date: '2018-12-01'
-title: 'dummy-project'
+date: ''
+title: ''
 github: ''
-external: 'dummy-link'
+external: ''
 tech:
-  - dummy-tech
-company: 'dummy-company'
-ios: 'dummy-content'
-android: 'dummy-content'
+  - ''
+company: ''
+ios: ''
+android: ''
 showInProjects: false
 ---
 
-dummy-text
+This is filler text.

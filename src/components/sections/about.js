@@ -132,7 +132,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  const skills = ['Python', 'Docker', 'Linux', 'Twitter API', 'Reddit API'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,19 +141,12 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Brittany, a software engineer based in Boston, MA.</p>
+            <p>Hey! I'm Sam, an aspiring software engineer from Los Angeles, CA.</p>
 
             <p>
-              I enjoy creating things that live on the internet, whether that be websites,
-              applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences.
-            </p>
-
-            <p>
-              Shortly after graduating from{' '}
-              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
-              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+              I am an avid lover of tech with a natural curiosity for the underlying technologies
+              involved in popular systems today and the discoveries of tomorrow. I enjoy programming
+              and would love to contribute to the continued development of modern tech.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>

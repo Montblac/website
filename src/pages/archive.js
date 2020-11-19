@@ -147,7 +147,7 @@ const ArchivePage = ({ location, data }) => {
       <main>
         <header ref={revealTitle}>
           <h1 className="big-heading">Archive</h1>
-          <p className="subtitle">A big list of things I’ve worked on</p>
+          <p className="subtitle">A list of things I’ve worked on</p>
         </header>
 
         <StyledTableContainer ref={revealTable}>
@@ -185,7 +185,8 @@ const ArchivePage = ({ location, data }) => {
                       </td>
 
                       <td className="tech hide-on-mobile">
-                        {tech.length > 0 &&
+                        {tech &&
+                          tech.length > 0 &&
                           tech.map((item, i) => (
                             <span key={i}>
                               {item}
