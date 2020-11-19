@@ -6,10 +6,11 @@ const IconLoader = () => (
     <g>
       <g id="B" transform="translate(11.000000, 5.000000)">
         <text
-          x="23"
-          y="65"
+          x="40"
+          y="64"
+          textAnchor="middle"
           fill="currentColor"
-          fontSize="60px"
+          fontSize="50px"
           fontFamily="Lucida Sans Unicode, Lucida Grande, sans-serif">
           S
         </text>
